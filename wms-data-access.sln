@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms-data-access", "wms-data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms-tools", "wms-tools\wms-tools.csproj", "{4F7A3184-44BE-423B-9139-D7B7DF201D11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms-shared", "wms-tools\wms-shared\wms-shared.csproj", "{54D6D967-01FD-4B70-A002-C105A2B499F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms-shared", "wms-tools\wms-shared\wms-shared.csproj", "{68A39C1C-50E8-47EE-87CB-12DF3AB9468D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{4F7A3184-44BE-423B-9139-D7B7DF201D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7A3184-44BE-423B-9139-D7B7DF201D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F7A3184-44BE-423B-9139-D7B7DF201D11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54D6D967-01FD-4B70-A002-C105A2B499F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54D6D967-01FD-4B70-A002-C105A2B499F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54D6D967-01FD-4B70-A002-C105A2B499F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54D6D967-01FD-4B70-A002-C105A2B499F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A39C1C-50E8-47EE-87CB-12DF3AB9468D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A39C1C-50E8-47EE-87CB-12DF3AB9468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A39C1C-50E8-47EE-87CB-12DF3AB9468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A39C1C-50E8-47EE-87CB-12DF3AB9468D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
