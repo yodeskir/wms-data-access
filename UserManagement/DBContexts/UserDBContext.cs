@@ -22,7 +22,7 @@ namespace WMSDataAccess.UserManagement.DBContexts
 
             foreach (var entity in modelBuilder.Model.GetEntityTypes())
             {
-                var currentTableName = modelBuilder.Entity(entity.Name).Metadata.Relational().TableName;
+                var currentTableName = modelBuilder.Entity(entity.Name).Metadata.GetTableName();
                 modelBuilder.Entity(entity.Name).ToTable(currentTableName.ToLower());
             }
             modelBuilder.HasPostgresExtension("POSTGIS");
